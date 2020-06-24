@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     #local
-    'news_API.apps.NewsApiConfig',
+    'news_api.apps.NewsApiConfig',
     #3rd party
     'rest_framework',
 ]
@@ -84,7 +84,7 @@ WSGI_APPLICATION = 'news_project.wsgi.application'
 #     }
 # }
 # setting.py
-   
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',

@@ -7,6 +7,7 @@ class News(models.Model):
     source = models.CharField(max_length=100)
     date = models.DateField()
     url = models.URLField()
+    body = models.TextField()
     user = models.ForeignKey(User, on_delete = models.CASCADE)
 
     def __str__(self):
